@@ -1,4 +1,4 @@
-package com.example.SpringLearning.SpringLearning.Locator;
+package com.example.SpringLearning.FactoryDesignPattern.Locator;
 
 import org.springframework.beans.factory.config.ServiceLocatorFactoryBean;
 import org.springframework.context.annotation.Bean;

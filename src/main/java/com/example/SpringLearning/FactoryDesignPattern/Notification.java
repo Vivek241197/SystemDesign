@@ -1,4 +1,4 @@
-package com.example.SpringLearning.SpringLearning;
+package com.example.SpringLearning.FactoryDesignPattern;
 
 public interface Notification {
 

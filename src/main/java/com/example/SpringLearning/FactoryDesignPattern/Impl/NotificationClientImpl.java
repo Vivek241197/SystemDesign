@@ -1,12 +1,12 @@
-package com.example.SpringLearning.SpringLearning.Impl;
+package com.example.SpringLearning.FactoryDesignPattern.Impl;
 
-import com.example.SpringLearning.SpringLearning.Locator.NotificationLocator;
-import com.example.SpringLearning.SpringLearning.Notification;
+import com.example.SpringLearning.FactoryDesignPattern.Locator.NotificationLocator;
+import com.example.SpringLearning.FactoryDesignPattern.Notification;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class NotificationClient {
+public class NotificationClientImpl {
 
     @Autowired
     private NotificationLocator locator;

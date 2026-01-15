@@ -1,7 +1,5 @@
-package com.example.SpringLearning.SpringLearning;
+package com.example.SpringLearning.FactoryDesignPattern;
 
-import com.example.SpringLearning.SpringLearning.Impl.NotificationClient;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

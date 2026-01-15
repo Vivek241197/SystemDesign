@@ -1,6 +1,6 @@
-package com.example.SpringLearning.SpringLearning.Impl;
+package com.example.SpringLearning.FactoryDesignPattern.Impl;
 
-import com.example.SpringLearning.SpringLearning.Notification;
+import com.example.SpringLearning.FactoryDesignPattern.Notification;
 import org.springframework.stereotype.Component;
 
 @Component("email")

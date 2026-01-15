@@ -1,6 +1,6 @@
-package com.example.SpringLearning.SpringLearning.Controller;
+package com.example.SpringLearning.FactoryDesignPattern.Controller;
 
-import com.example.SpringLearning.SpringLearning.Impl.NotificationClient;
+import com.example.SpringLearning.FactoryDesignPattern.Impl.NotificationClientImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class NotificationController {
 
     @Autowired
-    private NotificationClient client;
+    private NotificationClientImpl client;
 
     @GetMapping("/")
     public void getMessage(){
