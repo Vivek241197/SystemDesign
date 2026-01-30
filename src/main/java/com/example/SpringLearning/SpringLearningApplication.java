@@ -1,4 +1,4 @@
-package com.example.SpringLearning.FactoryDesignPattern;
+package com.example.SpringLearning;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
